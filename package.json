@@ -29,7 +29,7 @@
     "html-webpack-plugin": "2.29.0",
     "ipfs-api": "^22.0.2",
     "jest": "20.0.4",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "object-assign": "4.1.1",
     "openzeppelin-solidity": "^1.10.0",
     "postcss-flexbugs-fixes": "3.2.0",
