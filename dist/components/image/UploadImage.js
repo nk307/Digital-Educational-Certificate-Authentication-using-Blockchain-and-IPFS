@@ -62,14 +62,13 @@ class UploadImage extends Component {
         <fieldset disabled={this.props.loading}>
           <div className="row">
             <div className="col-md-8 m-auto">
-              <h1 className="display-4 text-center mt-4">
-                Upload The Certificate
-              </h1>
+              <h1 className="display-4 text-center mt-4">Upload an image</h1>
               {this.props.loading ? (
                 <Spinner />
               ) : (
                 <p className="lead text-center">
-                  Enter the Certification Course Information
+                  Let's get some information before uploading your image to IPFS
+                  and the Blockchain
                 </p>
               )}
               <form
@@ -101,7 +100,7 @@ class UploadImage extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="tags">Key Skills *</label>
+                  <label htmlFor="tags">Tags *</label>
                   <input
                     type="text"
                     className="form-control"
@@ -112,8 +111,7 @@ class UploadImage extends Component {
                     required
                   />
                   <small id="tagsHelpBlock" className="form-text text-muted">
-                    Machine Learning, eg- Keras, Tensorflow, numpy etc
-                    Blockchain eg. Ethereum,Hyperledger
+                    Comma-delimited e.g Baseball, Softball, Soccer.
                   </small>
                   <div className="invalid-feedback">Tags are required.</div>
                 </div>

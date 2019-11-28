@@ -9,8 +9,10 @@ class ImageDetail extends Component {
   componentDidMount() {
     this.props.getImage(this.props.match.params.index)
   }
+
   render() {
     const image = this.props.image ? this.props.image : {}
+
     const {
       ipfsHash,
       title,
@@ -26,6 +28,11 @@ class ImageDetail extends Component {
 
     return (
       <div className="container">
+        <div className="alert alert-info mt-3" role="alert">
+          Blockchain transaction information is <strong>not</strong> persisted.
+          This information <i>may</i> be lost when you refresh the browser or
+          login as another user.
+        </div>
         <div className="mt-3 mb-3">
           <Link to="/">Go Back</Link>
         </div>

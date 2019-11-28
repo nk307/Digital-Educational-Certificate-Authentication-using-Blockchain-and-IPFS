@@ -22,7 +22,7 @@ class Navbar extends Component {
                 </p>
                 <div className="copyright text-white mt-3">
                   <p className="mbr-text mbr-fonts-style display-7">
-                    © Copyright Naman Kabra ALL RIGHTS RESERVED
+                    © Copyright 2018 Bulldogs R Us - All Rights Reserved
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ class Navbar extends Component {
                 <circle cx="12" cy="13" r="4" />
               </svg>
               <strong>
-                Upload certificates to verify the CV and Upload them on IPFS
+                IPFS Image Upload dApp with Ethereum Smart Contracts
               </strong>
             </Link>
             <button

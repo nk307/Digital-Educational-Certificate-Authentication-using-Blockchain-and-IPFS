@@ -1,18 +1,4 @@
-# ipfs-image-dapp
 
-## Overview
-
-IPFS and the Blockchain are a perfect match. Why? You can address large amounts of data with IPFS and place the immutable, permanent IPFS links into a blockchain transaction. This will timestamp and secure your content, without having to put the data on the chain itself. You now have undisputable proof that your image existed at that time it was uploaded.
-
-This project is an Ethereum Decentralized Application (dApp) using React, Redux, React Router and Bootstrap. It demonstrates how to implement IPFS file uploads and store the IPFS hash on the blockchain.
-
-## Usage
-
-### Main Page
-
-In this application, the main page displays a list of image cards filtered by owner i.e. MetaMask account. Each image card displays the image, title, description, tags, upload timestamp and IPFS hash.
-
-![IPFS Image dApp](../master/assets/screenshots/app.png?raw=true 'IPFS Image dApp')
 
 ### Upload an Image
 

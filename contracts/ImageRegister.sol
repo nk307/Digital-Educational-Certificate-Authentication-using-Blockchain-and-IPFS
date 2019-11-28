@@ -1,15 +1,9 @@
-pragma solidity ^0.4.24;
+pragma solidity 0.4.24;
 
 // Base contract that can be destroyed by owner. 
 import "openzeppelin-solidity/contracts/lifecycle/Destructible.sol";
 
-/** 
- * @title ImageRegister
- * @author Irvin M. Waldman 
- * @notice This contract represents a registry of image ownership. 
- * Due to storage limitations, images are stored on IPFS.  
- * The IPFS hash along with metadata are stored onchain.
- */
+
 contract ImageRegister is Destructible {
 
     /** 

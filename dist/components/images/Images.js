@@ -7,7 +7,7 @@ import Spinner from '../common/Spinner'
 import ImageItem from './ImageItem'
 import { getImages } from '../../actions/imageActions'
 
-const backgroundImage = require('../../../assets/images/image3.jpeg')
+const backgroundImage = require('../../../assets/images/decentralized-network.jpg')
 
 class Images extends Component {
   static propTypes = {
@@ -63,7 +63,7 @@ class Images extends Component {
             </p>
             <p>
               <Link to="/uploadimage" className="btn btn-primary my-2">
-                Upload Certificates
+                Upload Image
               </Link>
             </p>
           </div>
